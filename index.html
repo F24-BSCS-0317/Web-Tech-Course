@@ -1,27 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Gym OceanWP</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header class="header">
-        <div class="head-div">
-            <div>
-                <img src="" alt="logo" class="Main-logo">
-                <a href="#" class="GYM-CLASS">GYM CLUB</a>
-            </div>
-            <div class="links">
-                <l1 class="l1">Home</l1>
-                <l1 class="l1">About</l1>
-                <l1 class="l1">Membership</l1>
-                <l1 class="l1">Trainers</l1>
-                <l1 class="l1">News</l1>
-                <l1 class="l1">Contact</l1>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">GYM<span>.</span></a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="membership.html">Membership</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Discover your potential</h1>
+      <p>Elementum imperdiet duis sagittis ipsum praesent mauris fusce tellus sed augue semper.</p>
+      <div class="hero-btns">
+        <a href="about.html" class="btn btn-primary">Learn More</a>
+        <a href="membership.html" class="btn btn-outline">View Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Build your body by unleashing your potential</h2>
+        <p>Suspendisse potenti nunc feugiat mi a tellus consequat imperdiet vestibulum sapien proin quam etiam ultrices suspendisse in justo eu magna luctus.</p>
+      </div>
+      <div class="grid-3 text-center">
+        <div class="feature-card fc-1"><h3>Cardio Training</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+        <div class="feature-card fc-2"><h3>Crossfit</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+        <div class="feature-card fc-3"><h3>Boxing Circuit</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="split-section">
+    <div class="split-img" style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1000&q=80');"></div>
+    <div class="split-content">
+      <h2>It's time, change your body</h2>
+      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor.</p>
+      <ul class="icon-list">
+        <li><div class="icon-box">01</div><div><h4>Circuit Training</h4><p>Augue congue elementum. Morbi in ipsum sit amet peda facilisis laoreet dnec lacus nunc.</p></div></li>
+        <li><div class="icon-box">02</div><div><h4>Pool Exercises</h4><p>Augue congue elementum. Morbi in ipsum sit amet peda facilisis laoreet dnec lacus nunc.</p></div></li>
+        <li><div class="icon-box">03</div><div><h4>Boxing Circuit</h4><p>Augue congue elementum. Morbi in ipsum sit amet peda facilisis laoreet dnec lacus nunc.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="container">
+      <h2>Subscribe to get in touch</h2>
+      <p>Nunc feugiat mi a tellus consequat imperdiet vestibulum</p>
+      <form class="sub-form" action="#"><input type="email" placeholder="Enter your email address..." required><button type="submit">GO</button></form>
+    </div>
+  </section>
+
+  <section class="contact-bar">
+    <div class="container grid-3">
+      <div class="contact-item"><h4>Visit Us</h4><p>Mulberry Miami</p></div>
+      <div class="contact-item"><h4>Open Hours</h4><p>7.30am – 19.30pm</p></div>
+      <div class="contact-item"><h4>Give Us a Call</h4><p>(111) 22-33-444</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">GYM CLUB</div>
+    <div class="footer-links">www.oceanwp.org &nbsp;|&nbsp; contact@youroceanwpsite.com &nbsp;|&nbsp; +111 22-33-444</div>
+    <p>&copy; Copyright - Get fit with OceanWP</p>
+  </footer>
 </body>
 </html>
