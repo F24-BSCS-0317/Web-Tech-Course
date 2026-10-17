@@ -1,0 +1,17 @@
+.head-div{
+    display: flex;
+}
+
+.l1{
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.GYM-CLASS{
+    padding-right: 50px;
+    font-size: 12px;
+}
+
+.head-div{
+    padding-left: 63px;
+}
